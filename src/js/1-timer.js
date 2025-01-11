@@ -11,7 +11,7 @@ const hours = document.querySelector('[data-hours]');
 const minutes = document.querySelector('[data-minutes]');
 const seconds = document.querySelector('[data-seconds]');
 
-let timerInterval = null;
+let intervalBack = null;
 let userSelectedDate = null;
 
 flatpickr(inputDatePicker, {
